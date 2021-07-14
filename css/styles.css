@@ -1,0 +1,90 @@
+header{
+    background-color: #2F319F;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    justify-content: flex-start;
+}
+nav h3{
+    padding-right: 30px;
+    color: white;
+}
+button{
+    display: flex;
+    background-color: #E02C6D;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner img{
+    width: 60%;
+}
+/**** -----------------------------
+------ ---   Players Style---------------
+---------------------------------- ****/
+
+section{
+    margin: 70px 210px 100px 180px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 27px;
+ 
+
+} 
+article{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    align-items:center;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+
+}
+article img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+/*** --------------------------------------
+--------------Footer Style-----------------
+---------------------------------------- ***/
+.footer{
+    background-color:#f5f6fa ;
+    display: flex;
+    align-items: center;
+    
+}
+.footer img{
+    height: 110px;
+    width: 483px;
+}
+.footer-box{
+
+}
+.fa-{
+    flex:none;
+    align-self: center;
+    margin-right: 18px;
+}
+
+#copyright{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-size: 18px;
+}
