@@ -1,11 +1,14 @@
 header{
     background-color: #2F319F;
+    margin: 0px;
+    padding: 42px 124px 50px 156px  ;  
 
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0px;
 }
 
 nav div{
@@ -18,11 +21,21 @@ nav h3{
 }
 button{
     display: flex;
+    flex-direction: row;
     background-color: #E02C6D;
     align-items: center;
     color: white;
     border-radius: 5px;
+    font-weight: 500; 
     
+}
+
+h1{
+    color:;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
 }
 .banner{
     display: flex;
@@ -67,6 +80,7 @@ article img{
     background-color:#f5f6fa ;
     display: flex;
     align-items: center;
+    margin: auto;
     
 }
 .footer img{
@@ -88,3 +102,7 @@ article img{
     text-align: right;
     font-size: 18px;
 }
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
