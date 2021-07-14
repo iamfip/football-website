@@ -6,9 +6,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
+    justify-content: space-between;
 }
 
 nav div {
@@ -27,8 +25,11 @@ button {
     background-color: #E02C6D;
     align-items: center;
     color: white;
+    height: 62px;
+    width: 170px;
     border-radius: 5px;
     font-weight: 500;
+    padding: 10px 24px;
 }
 
 h1 {
@@ -39,18 +40,19 @@ h1 {
 }
 
 .banner {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .banner img {
-    width: 60%;
+    width: 100%;
 }
 
 /* -------------------------------- */
 
 button:hover {
-    background-color: #FD7272;
+    background-color: #08ff1c;
+    font-weight: bolder;
 }
 
 /**** -----------------------------
@@ -116,6 +118,28 @@ article h3 {
         text-shadow: 0 0 30px #fff, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 } */
+.match-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.match-container img{
+    width: 100%;
+}
+.optional{
+    display: flex;
+    flex-direction: column;
+}
+
+.optional > h1{
+    color: #000138;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* h2{
+    text-align: center;
+    te
+} */
 
 /*** --------------------------------------
 --------------Footer Style-----------------
@@ -150,3 +174,49 @@ footer>p {
     color: black;
     font-size: 18px;
 }
+
+
+
+/* ---------------------- Media Quary--------------------------*/
+@media only screen and (max-width:688px) {
+    .banner , .match-container , section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    nav{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .navbar{
+        display: none;
+    }
+    header,section{
+        padding: 0px;
+        margin: 0px;
+    }
+    banner img{
+        width: 100%;
+    }
+     /* {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);;
+       
+    } */
+    h1{
+        font-size: 36px;
+        position:relative;
+    }
+    footer > img {
+        width: 100%;
+        margin: none;
+    }
+    /* .match-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); */
+        footer{
+            margin: auto;
+            width: 100%;
+        }
+    }
+    
+
