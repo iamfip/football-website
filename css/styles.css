@@ -1,113 +1,152 @@
-header{
+header {
     background-color: #2F319F;
     margin: 0px;
-    padding: 42px 124px 50px 156px  ;  
-
+    padding: 42px 124px 50px 156px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0px;
 }
 
-nav div{
+nav div {
     display: flex;
     justify-content: flex-start;
 }
-nav h3{
+
+nav h3 {
     padding-right: 30px;
     color: white;
 }
-button{
+
+button {
     display: flex;
     flex-direction: row;
     background-color: #E02C6D;
     align-items: center;
     color: white;
     border-radius: 5px;
-    font-weight: 500; 
-    
+    font-weight: 500;
 }
 
-h1{
-    color:;
+h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 64px;
     color: white;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
 }
-.banner img{
+
+.banner img {
     width: 60%;
 }
+
 /* -------------------------------- */
-button:hover, h3:hover {
-    background-color: aqua;
+
+button:hover {
+    background-color: #FD7272;
 }
 
 /**** -----------------------------
 ------ ---   Players Style---------------
 ---------------------------------- ****/
 
-section{
+p {
+    font-size: 16px;
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
     margin: 70px 210px 100px 180px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
     column-gap: 27px;
- 
+}
 
-} 
-article{
+article {
     display: flex;
     flex-direction: column;
     width: 330px;
-    align-items:center;
+    align-items: center;
     background-color: white;
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-
-
 }
-article img{
+
+article img {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 3%;
 }
+
+article h3 {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* **************************
+        Glow Section
+**************************/
+
+/* .glowing-Effect {
+    background-color: black;
+    font-family: cursive;
+}
+
+.glow {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 25px #fff, 0 0 35px #e60073, 0 0 50px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 30px #fff, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+} */
 
 /*** --------------------------------------
 --------------Footer Style-----------------
 ---------------------------------------- ***/
-.footer{
-    background-color:#f5f6fa ;
+
+footer {
+    background-color: hsl(0, 0%, 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: auto;
-    
+    padding: 20px;
 }
-.footer img{
+
+.sm-icons {
+    width: 200px;
+    display: flex;
+    padding-left: 30px;
+    margin: 20px;
+}
+
+.sm-icons img {
+    width: 32px;
+    padding-right: 14px;
+}
+
+footer>img {
+    width: 483.87px;
     height: 110px;
-    width: 483px;
-}
-.footer-box{
-
-}
-.fa-{
-    flex:none;
-    align-self: center;
-    margin-right: 18px;
 }
 
-#copyright{
-    display: flex;
-    align-items: center;
-    text-align: right;
+footer>p {
+    color: black;
     font-size: 18px;
 }
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-</style>
